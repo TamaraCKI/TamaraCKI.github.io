@@ -24,8 +24,8 @@
 -------------------------------------------------------------------*/
 
 body {
-    color: #999999;
-    font-size: 14px;
+    color:#545454  /*#999999;*/
+    font-size: 16px;
     font-family: 'Roboto Mono', monospace;
     line-height: 1.80857;
 }
@@ -59,6 +59,10 @@ body.demos .service-widget {
 
 body.demos .container-fluid {
     max-width: 1080px
+}
+
+key {
+  color: #900022;
 }
 
 a {
