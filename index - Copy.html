@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-    <html lang="nl">
+    <html lang="en">
     <head>
     <!-- Basic -->
     <meta charset="utf-8">
@@ -30,11 +30,8 @@
     <meta property="twitter:title" content="Persoonlijke website - Tamara Florijn">
     <meta property="twitter:description" content="Kijk gerust even rond op m'n website voor m'n portfolio of neem contact op.">
     <meta property="twitter:image" content="uploads/Snacki.jpeg">
-	 
-	 <!-- SEO -->
-	<link rel="alternate" hreflang="nl" href="https://tamaraflorijn.nl" />
-	<link rel="alternate" hreflang="en" href="https://tamaraflorijn.nl/en/" />
-	
+
+
     <!-- Site Icons -->
     <link rel="shortcut icon" href="images/Logo-TF.png" type="image/x-icon" />
     <link rel="apple-touch-icon" href="images/Logo-TF.png">
@@ -94,24 +91,7 @@
 			<li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
-		<!--			<li>
-<a class="button" href="./index.html" hreflang="nl" lang="nl" style="color: #ffffff"> >NL</a>
-<a class="button" href="./en/index.html" hreflang="en" lang="en" style="color: #ffffff"> >EN</a>
-<li>!-->
-			  
-		
-
-    
- <!--<li><a href="./index.html" onclick="changeLanguage('nl')" style="color: #ffffff"> NL</a></li> -->
-        <li><a href="./en/index.html" onclick="changeLanguage('en')" style="color: #ffffff">ENGLISH</a></li> 
-	
-
-  </ul>
-</div>
-		
-			
-			       
-         </ul>
+          </ul>
         </div>
       </div>
       <!-- social media boxen-->
@@ -128,24 +108,16 @@
             </div>
           </div>
         </div>
-		
-
-
-		 
       </section>
     </nav>
-	
-	<nav>
-    
-</nav>
 
 	<section id="home" class="main-banner parallaxie" style="background: url('uploads/Snacki.jpeg')">
 		<div class="heading">
 
-			<h1 style="color: #900022;"> Welkom (home) <br></h1>
+			<h1 style="color: #900022;"> Welkom <br></h1>
       <h2 style="color: #ffffff"> <b> Mijn naam is Tamara Florijn.</b> </h2>
 			<p> Op dit moment doe ik een PhD waarbij ik <br> computers ga leren om een compromis te sluiten. <br> Kijk gerust even rond
-        voor m'n portfolio,  lees over andere <br> dingen die ik doe of neem <a href="#contact"> <key> <strong> contact </strong> </key> </a> met me op :) <br> For English, click <a href="./en/index.html"> <key> <strong> here </strong>. </p>
+        voor m'n portfolio,  lees over andere <br> dingen die ik doe of neem <a href="#contact"> <key> <strong> contact </strong> </key> </a> met me op :) </p>
 		</div>
 	</section>
 
@@ -209,16 +181,17 @@
 			<div class="gallery-menu row">
 				<div class="col-md-12">
 					<div class="button-group filter-button-group text-left">
-	           <button class="active"  data-filter="*">Wetenschap</button> <!-- niet alles gelijk showen-->
-            
+	           <button class="active"  data-filter="*">Alle</button> <!-- niet alles gelijk showen-->
+             <button data-filter=".gal_a">Wetenschapsjournalistiek</button>
+						<button data-filter=".gal_b"> Academisch</button>
+          <button data-filter=".gal_c"> English</button>
 					</div>
 				</div>
 			</div>
-			</div>
 
-			<div class="container">
-			<div class="row">
-          <div class="col-md-4 col-sm-6">
+		<div class="gallery-list row">
+		<div class = "container">
+          <div class="col-md-4 col-sm-6 gallery-grid gal_a gal_b">
           <div class="post-box">
               <a href="https://www.uu.nl/onderwijs/wetenschapsknooppunt/basisonderwijs/slimme-gasten" target="_blank">
             <div class="post-thumb">
@@ -238,7 +211,7 @@
           </div>
         </div>
 
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-4 col-sm-6 gallery-grid gal_b gal_c">
           <div class="post-box">
               <a href= "uploads/Poster_TF_CAIF.pdf" target="_blank">
             <div class="post-thumb">
@@ -255,9 +228,8 @@
             </div>
           </div>
         </div>
-		
 
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-4 col-sm-6 gallery-grid gal_b gal_c">
           <div class="post-box">
               <a href= "uploads/Thesis_MSc_Florijn.pdf"" target="_blank">
             <div class="post-thumb">
@@ -274,10 +246,7 @@
             </div>
           </div>
         </div>  
-		        </div><!-- end row -->
-		
-		<div class="row">
-          <div class="col-md-4 col-sm-6">
+          <div class="col-md-4 col-sm-6 gallery-grid gal_a">
           <div class="post-box">
               <a href= "https://www.newscientist.nl/opinie/andre-kuipers-kinderen-weten-vaak-meer-van-ruimtevaart-dan-hun-ouders/" target="_blank">
             <div class="post-thumb">
@@ -293,10 +262,9 @@
               <p>André Kuipers vertelde me in een interview over zijn nieuwe kinderboek. Een mooie ervaring om te mogen spreken met iemand die zo'n bijzonder verhaal te vertellen heeft.  </p>
             </div>
           </div>
-		 </div>
-		
-		
-         <div class="col-md-4 col-sm-6">
+        </div>
+
+        <div class="col-md-4 col-sm-6 gallery-grid gal_a">
           <div class="post-box">
               <a href= "https://www.newscientist.nl/nieuws/denkstappen-kunstmatige-intelligentie-niet-langer-in-nevelen-gehuld/" target="_blank">
             <div class="post-thumb">
@@ -312,10 +280,9 @@
               <p> Een van de artikelen in mijn eigen vakgebied van kunstmatige intelligentie. Twentse onderzoekster Meike Nauta heeft een kunstmatige intelligentie (AI) gemaakt die de tussenstappen van zijn redenering laat zien.  </p>
             </div>
           </div>
-		  </div>
-        
+        </div>
 
-        <div class="col-md-4 col-sm-6 ">
+        <div class="col-md-4 col-sm-6 gallery-grid gal_a">
           <div class="post-box">
               <a href= "https://www.newscientist.nl/nieuws/bacterien-zetten-plastic-om-in-vanillesmaakstof/" target="_blank">
             <div class="post-thumb">
@@ -332,10 +299,8 @@
             </div>
           </div>
         </div>
-		 </div><!-- end row -->
-		 
-		 <div class = "row">
-        <div class="col-md-4 col-sm-6">
+
+        <div class="col-md-4 col-sm-6 gallery-grid gal_a">
 					<div class="post-box">
               <a href="uploads/Waar blijven de AED-drones - Tamara Florijn.pdf" target="_blank">
 						<div class="post-thumb">
@@ -352,10 +317,9 @@
               is gepubliceerd op ... </p> -->
 						</div>
 					</div>
-		</div>
-		
+				</div>
 
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-4 col-sm-6 gallery-grid gal_a">
 					<div class="post-box">
               <a href= "https://newscientist.nl/nieuws/een-computermodel-kan-virtueel-extra-proefpersonen-bijmaken/" target="_blank">
 						<div class="post-thumb">
@@ -371,12 +335,12 @@
 							<p>Een van de leukste interviews van mijn stage, met biomedisch ingenieur Aurélie Carlier over haar onderzoek naar een 'virtuele patiënt'. </p>
 						</div>
 					</div>
-		</div>
+				</div>
 
 
 
 
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-4 col-sm-6 gallery-grid gal_a">
 					<div class="post-box">
               <a href= "https://www.newscientist.nl/nieuws/maxwells-duiveltje-keert-gokkend-terug/" target="_blank">
 						<div class="post-thumb">
@@ -392,11 +356,10 @@
 							<p>Mijn eerste gepubliceerde nieuwsbericht bij New Scientist. Hoe een experiment de tweede wet van thermodynamica tijdelijk op z'n kop zet. </p>
 						</div>
 					</div>
-		</div>
-		 </div><!-- end row -->
+				</div>
 
-		<div class = "row">
-        <div class="col-md-4 col-sm-6">
+
+        <div class="col-md-4 col-sm-6 gallery-grid gal_a">
 					<div class="post-box">
               <a href= "https://www.newscientist.nl/nieuws/onze-hersenen-kunnen-we-niet-vervangen/" target="_blank">
 						<div class="post-thumb">
@@ -414,7 +377,7 @@
 					</div>
 				</div>
 
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-4 col-sm-6 gallery-grid gal_a">
           <div class="post-box">
               <a href= "https://www.newscientist.nl/nieuws/geluid-brengt-deeltjes-in-patroon-dat-nooit-herhaalt/" target="_blank">
             <div class="post-thumb">
@@ -434,7 +397,7 @@
 
 
 
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-4 col-sm-6 gallery-grid gal_a">
           <div class="post-box">
               <a href= "https://www.newscientist.nl/nieuws/vangrails-vol-water-kunnen-beter-crash-opvangen/" target="_blank">
             <div class="post-thumb">
@@ -451,7 +414,6 @@
             </div>
           </div>
         </div>
-		 </div><!-- end row -->
 <!--
         <div class="post-box">
             <a href= "https://newscientist.nl/nieuws/blinde-man-kan-deels-weer-zien-dankzij-optogenetica/" target="_blank">
@@ -470,8 +432,7 @@
         </div>
       </div>
 -->
-		<div class = "row">
-      	<div class="col-md-4 col-sm-6"> 
+      	<div class="col-md-4 col-sm-6 gallery-grid gal_b gal_c">
 					<div class="post-box">
               <a href= "https://dspace.library.uu.nl/handle/1874/382469" target="_blank">
 						<div class="post-thumb">
@@ -492,7 +453,7 @@
 				</div>
 
 
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-4 col-sm-6 gallery-grid gal_b gal_c">
           <div class="post-box">
               <a href="uploads/Literature_review_Tamara_Florijn.pdf" target="_blank">
             <div class="post-thumb">
@@ -512,7 +473,7 @@
           </div>
         </div>
 
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-4 col-sm-6 gallery-grid gal_b gal_c">
           <div class="post-box">
               <a href="uploads/Pattern_set_mining_essay_Tamara_Florijn.pdf" target="_blank">
             <div class="post-thumb">
@@ -530,13 +491,7 @@
             </div>
           </div>
         </div>
-	
-		 
-		<!--  	<div class = "row">
 
-
-	 </div><!-- end row -->
-	 
 
 
 			</div>
